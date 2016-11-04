@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/common_margin_5" >
+
+    <TextView
+        style="@style/mms_item_title"
+        android:text="@string/mms_recipient" />
+
+    <EditText
+        android:id="@+id/mms_recipient"
+        style="@style/add_new_contact_edit" 
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        style="@style/mms_item_title"
+        android:text="@string/mms_title_name" />
+
+    <EditText
+        android:id="@+id/mms_edit_info"
+        style="@style/add_new_contact_edit"
+        android:inputType="textMultiLine"
+        android:minLines="8"
+        android:maxLines="10" 
+        android:gravity="top"
+        />
+
+</LinearLayout>

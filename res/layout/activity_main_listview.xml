@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+    
+    <ListView
+        android:id="@+id/main_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/nothing"
+        android:textColor="@drawable/textcolor_selector"
+        android:textSize="@dimen/text_size_30"
+        android:visibility="gone"/>
+    <LinearLayout 
+        android:id="@+id/not_default_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+        <Button 
+            android:id="@+id/change_default_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/set_default_sms"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

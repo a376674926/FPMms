@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/mms_recipient"
+        style="@style/mms_item_title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="85dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textSize="@dimen/text_size_40"
+        />
+    
+    <TextView 
+        android:id="@+id/mms_date"
+        style="@style/mms_item_title"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/text_size_30"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginRight="5dp"
+        android:layout_alignBottom="@id/mms_recipient"
+        />
+
+    <EditText
+        android:id="@+id/mms_edit_info"
+        style="@style/add_new_contact_edit"
+        android:inputType="textMultiLine"
+        android:minLines="7"
+        android:maxLines="9" 
+        android:gravity="top"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/mms_recipient"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:cursorVisible="false"
+        />
+
+</RelativeLayout>

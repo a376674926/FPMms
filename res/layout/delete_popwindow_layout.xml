@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray" >
+
+        <Button
+            android:id="@+id/pop_btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_background_selector"
+            android:focusable="false"
+            android:textColor="@drawable/textcolor_selector"
+            android:textSize="45.0sp" 
+            android:text="@string/text_ok"/>
+
+        <Button
+            android:id="@+id/pop_btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/button_background_selector"
+            android:focusable="false"
+            android:textColor="@drawable/textcolor_selector"
+            android:textSize="45.0sp" 
+            android:text="@string/text_no"/>
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/delete"
+        android:textSize="50.0sp" 
+        android:background="@android:color/white"
+        android:layout_above="@id/bottom_layout"
+        android:gravity="center"/>
+
+</RelativeLayout>

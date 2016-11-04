@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- mms主界面信息 -->
+    <string-array name="mms_templates">
+        <item>@string/create_new_mms</item>
+        <item>@string/function_mms</item>
+        <item>@string/mms_send_box</item>
+        <item>@string/sent_message</item>
+        <item>@string/mms_drafts_box</item>
+    </string-array>
+    
+    <!-- mms写信息菜单选项 -->
+    <string-array name="new_mms_menu_options">
+        <item>@string/mms_send</item>
+        <item>@string/insert_template</item>
+        <item>@string/advanced_options</item>
+        <item>@string/mms_save</item>
+        <item>@string/text_add_contact</item>
+    </string-array>
+    
+    <!-- 插入模板短信模板选项 -->
+    <string-array name="sms_templates">
+        <item>@string/sms_templates1</item>
+        <item>@string/sms_templates2</item>
+        <item>@string/sms_templates3</item>
+        <item>@string/sms_templates4</item>
+        <item>@string/sms_templates5</item>
+        <item>@string/sms_templates6</item>
+        <item>@string/sms_templates7</item>
+        <item>@string/sms_templates8</item>
+    </string-array>
+    
+    <!-- 高级选项 -->
+    <string-array name="advanced_options">
+        <item>@string/mms_insert_number</item>
+        <item>@string/mms_insert_name</item>
+    </string-array>
+    
+    <!-- 草稿菜单选项--> 
+    <string-array name="draft_options">
+        <item>@string/view</item>
+        <item>@string/mms_send</item>
+        <item>@string/mms_edit</item>
+        <item>@string/delete</item>
+        <item>@string/delete_all</item>
+    </string-array>
+    
+    <!-- 收件箱菜单选项--> 
+    <string-array name="inbox_options">
+        <item>@string/view</item>
+        <item>@string/reply</item>
+        <item>@string/forward</item>
+        <item>@string/delete</item>
+        <item>@string/call_sender</item>
+        <item>@string/save_sender</item>
+    </string-array>
+    
+    <!-- 发件箱菜单选项 -->
+    <string-array name="outbox_options">
+        <item>@string/view</item>
+        <item>@string/mms_resend</item>
+        <item>@string/mms_edit</item>
+        <item>@string/delete</item>
+    </string-array>
+    
+    <!-- 已发消息菜单选项 -->
+    <string-array name="sentmessage_options">
+        <item>@string/view</item>
+        <item>@string/forward</item>
+        <item>@string/delete</item>
+    </string-array>
+    
+</resources>
